@@ -6,6 +6,7 @@ This has fundamentals of ros2-jazzy
 
 - ROS2 installed
 - Python3
+- C++
 
 ## Auther
 Anurag Iyer
