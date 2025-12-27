@@ -1,0 +1,59 @@
+[0.014s] Invoking command in '/home/anurag-iyer16/ros2_ws/build/ros2_fundamentals_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anurag-iyer16/ros2_ws/install/my_robot_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/anurag-iyer16/ros2_ws/build/ros2_fundamentals_examples -- -j12 -l12
+[0.108s] [ 50%] Built target minimal_cpp_publisher
+[0.112s] [ 50%] Built target ament_cmake_python_copy_ros2_fundamentals_examples
+[0.114s] [ 75%] [32mBuilding CXX object CMakeFiles/minimal_cpp_subscriber.dir/src/cpp_minimal_subscriber.cpp.o[0m
+[0.381s] running egg_info
+[0.405s] writing ros2_fundamentals_examples.egg-info/PKG-INFO
+[0.405s] writing dependency_links to ros2_fundamentals_examples.egg-info/dependency_links.txt
+[0.405s] writing top-level names to ros2_fundamentals_examples.egg-info/top_level.txt
+[0.471s] reading manifest file 'ros2_fundamentals_examples.egg-info/SOURCES.txt'
+[0.472s] writing manifest file 'ros2_fundamentals_examples.egg-info/SOURCES.txt'
+[0.513s] [ 75%] Built target ament_cmake_python_build_ros2_fundamentals_examples_egg
+[8.243s] [100%] [32m[1mLinking CXX executable minimal_cpp_subscriber[0m
+[8.546s] [100%] Built target minimal_cpp_subscriber
+[8.563s] Invoked command in '/home/anurag-iyer16/ros2_ws/build/ros2_fundamentals_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anurag-iyer16/ros2_ws/install/my_robot_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/anurag-iyer16/ros2_ws/build/ros2_fundamentals_examples -- -j12 -l12
+[8.578s] Invoking command in '/home/anurag-iyer16/ros2_ws/build/ros2_fundamentals_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anurag-iyer16/ros2_ws/install/my_robot_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/anurag-iyer16/ros2_ws/build/ros2_fundamentals_examples
+[8.589s] -- Install configuration: ""
+[8.589s] -- Up-to-date: /home/anurag-iyer16/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/ros2_fundamentals_examples
+[8.590s] -- Up-to-date: /home/anurag-iyer16/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/ros2_fundamentals_examples/py_minimal_publisher.py
+[8.591s] -- Up-to-date: /home/anurag-iyer16/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/ros2_fundamentals_examples/__init__.py
+[8.591s] -- Up-to-date: /home/anurag-iyer16/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/ros2_fundamentals_examples/py_minimal_subscriber.py
+[8.591s] -- Up-to-date: /home/anurag-iyer16/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/scripts
+[8.591s] -- Up-to-date: /home/anurag-iyer16/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/scripts/minimal_pub_sub_launch.sh
+[8.591s] -- Up-to-date: /home/anurag-iyer16/ros2_ws/install/ros2_fundamentals_examples/include
+[8.591s] -- Up-to-date: /home/anurag-iyer16/ros2_ws/install/ros2_fundamentals_examples/include/ros2_fundamentals_examples
+[8.592s] -- Installing: /home/anurag-iyer16/ros2_ws/install/ros2_fundamentals_examples/lib/ros2_fundamentals_examples/minimal_cpp_publisher
+[8.593s] -- Set non-toolchain portion of runtime path of "/home/anurag-iyer16/ros2_ws/install/ros2_fundamentals_examples/lib/ros2_fundamentals_examples/minimal_cpp_publisher" to ""
+[8.593s] -- Installing: /home/anurag-iyer16/ros2_ws/install/ros2_fundamentals_examples/lib/ros2_fundamentals_examples/minimal_cpp_subscriber
+[8.597s] -- Set non-toolchain portion of runtime path of "/home/anurag-iyer16/ros2_ws/install/ros2_fundamentals_examples/lib/ros2_fundamentals_examples/minimal_cpp_subscriber" to ""
+[8.598s] -- Up-to-date: /home/anurag-iyer16/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/environment/pythonpath.sh
+[8.598s] -- Up-to-date: /home/anurag-iyer16/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/environment/pythonpath.dsv
+[8.598s] -- Up-to-date: /home/anurag-iyer16/ros2_ws/install/ros2_fundamentals_examples/lib/python3.12/site-packages/ros2_fundamentals_examples-0.0.0-py3.12.egg-info
+[8.598s] -- Installing: /home/anurag-iyer16/ros2_ws/install/ros2_fundamentals_examples/lib/python3.12/site-packages/ros2_fundamentals_examples-0.0.0-py3.12.egg-info/PKG-INFO
+[8.598s] -- Installing: /home/anurag-iyer16/ros2_ws/install/ros2_fundamentals_examples/lib/python3.12/site-packages/ros2_fundamentals_examples-0.0.0-py3.12.egg-info/dependency_links.txt
+[8.598s] -- Installing: /home/anurag-iyer16/ros2_ws/install/ros2_fundamentals_examples/lib/python3.12/site-packages/ros2_fundamentals_examples-0.0.0-py3.12.egg-info/SOURCES.txt
+[8.598s] -- Installing: /home/anurag-iyer16/ros2_ws/install/ros2_fundamentals_examples/lib/python3.12/site-packages/ros2_fundamentals_examples-0.0.0-py3.12.egg-info/top_level.txt
+[8.599s] -- Up-to-date: /home/anurag-iyer16/ros2_ws/install/ros2_fundamentals_examples/lib/python3.12/site-packages/ros2_fundamentals_examples
+[8.599s] -- Up-to-date: /home/anurag-iyer16/ros2_ws/install/ros2_fundamentals_examples/lib/python3.12/site-packages/ros2_fundamentals_examples/py_minimal_publisher.py
+[8.599s] -- Up-to-date: /home/anurag-iyer16/ros2_ws/install/ros2_fundamentals_examples/lib/python3.12/site-packages/ros2_fundamentals_examples/__init__.py
+[8.599s] -- Up-to-date: /home/anurag-iyer16/ros2_ws/install/ros2_fundamentals_examples/lib/python3.12/site-packages/ros2_fundamentals_examples/py_minimal_subscriber.py
+[8.653s] Listing '/home/anurag-iyer16/ros2_ws/install/ros2_fundamentals_examples/lib/python3.12/site-packages/ros2_fundamentals_examples'...
+[8.659s] -- Up-to-date: /home/anurag-iyer16/ros2_ws/install/ros2_fundamentals_examples/lib/ros2_fundamentals_examples/py_minimal_publisher.py
+[8.660s] -- Up-to-date: /home/anurag-iyer16/ros2_ws/install/ros2_fundamentals_examples/lib/ros2_fundamentals_examples/py_minimal_subscriber.py
+[8.660s] -- Up-to-date: /home/anurag-iyer16/ros2_ws/install/ros2_fundamentals_examples/share/ament_index/resource_index/package_run_dependencies/ros2_fundamentals_examples
+[8.660s] -- Up-to-date: /home/anurag-iyer16/ros2_ws/install/ros2_fundamentals_examples/share/ament_index/resource_index/parent_prefix_path/ros2_fundamentals_examples
+[8.660s] -- Up-to-date: /home/anurag-iyer16/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/environment/ament_prefix_path.sh
+[8.660s] -- Up-to-date: /home/anurag-iyer16/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/environment/ament_prefix_path.dsv
+[8.660s] -- Up-to-date: /home/anurag-iyer16/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/environment/path.sh
+[8.661s] -- Up-to-date: /home/anurag-iyer16/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/environment/path.dsv
+[8.661s] -- Up-to-date: /home/anurag-iyer16/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/local_setup.bash
+[8.661s] -- Up-to-date: /home/anurag-iyer16/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/local_setup.sh
+[8.661s] -- Up-to-date: /home/anurag-iyer16/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/local_setup.zsh
+[8.661s] -- Up-to-date: /home/anurag-iyer16/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/local_setup.dsv
+[8.661s] -- Installing: /home/anurag-iyer16/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/package.dsv
+[8.661s] -- Up-to-date: /home/anurag-iyer16/ros2_ws/install/ros2_fundamentals_examples/share/ament_index/resource_index/packages/ros2_fundamentals_examples
+[8.662s] -- Up-to-date: /home/anurag-iyer16/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.662s] -- Up-to-date: /home/anurag-iyer16/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/cmake/ros2_fundamentals_examplesConfig.cmake
+[8.662s] -- Up-to-date: /home/anurag-iyer16/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/cmake/ros2_fundamentals_examplesConfig-version.cmake
+[8.663s] -- Up-to-date: /home/anurag-iyer16/ros2_ws/install/ros2_fundamentals_examples/share/ros2_fundamentals_examples/package.xml
+[8.664s] Invoked command in '/home/anurag-iyer16/ros2_ws/build/ros2_fundamentals_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anurag-iyer16/ros2_ws/install/my_robot_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/anurag-iyer16/ros2_ws/build/ros2_fundamentals_examples

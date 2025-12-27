@@ -1,0 +1,19 @@
+[0.008s] Invoking command in '/home/anurag-iyer16/ros2_ws/build/ros2_fundamentals_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anurag-iyer16/ros2_ws/install/my_robot_controller:/opt/ros/jazzy /usr/bin/cmake --build /home/anurag-iyer16/ros2_ws/build/ros2_fundamentals_examples -- -j12 -l12
+[0.031s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.200s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.219s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.225s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.233s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.242s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.285s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.286s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.344s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.390s] -- Found rclpy: 7.1.6 (/opt/ros/jazzy/share/rclpy/cmake)
+[0.390s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.400s] [31mCMake Error at CMakeLists.txt:45 (incluce):
+[0.400s]   Unknown CMake command "incluce".
+[0.400s] 
+[0.400s] [0m
+[0.400s] -- Configuring incomplete, errors occurred!
+[0.405s] gmake: *** [Makefile:254: cmake_check_build_system] Error 1
+[0.407s] Invoked command in '/home/anurag-iyer16/ros2_ws/build/ros2_fundamentals_examples' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anurag-iyer16/ros2_ws/install/my_robot_controller:/opt/ros/jazzy /usr/bin/cmake --build /home/anurag-iyer16/ros2_ws/build/ros2_fundamentals_examples -- -j12 -l12

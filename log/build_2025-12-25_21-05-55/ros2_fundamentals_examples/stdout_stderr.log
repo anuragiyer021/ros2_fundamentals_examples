@@ -1,0 +1,93 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclpy: 7.1.6 (/opt/ros/jazzy/share/rclpy/cmake)
+-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/anurag-iyer16/ros2_ws/src/ros2_fundamentals_examples/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (0.5s)
+[33mCMake Warning (dev) at CMakeLists.txt:27 (add_executable):
+  Policy CMP0115 is not set: Source file extensions must be explicit.  Run
+  "cmake --help-policy CMP0115" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  File:
+
+    /home/anurag-iyer16/ros2_ws/src/ros2_fundamentals_examples/src/cpp_minimal_publisher.cpp
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+-- Generating done (0.0s)
+-- Build files have been written to: /home/anurag-iyer16/ros2_ws/build/ros2_fundamentals_examples
+[ 50%] [32mBuilding CXX object CMakeFiles/minimal_cpp_publisher.dir/src/cpp_minimal_publisher.cpp.o[0m
+[ 50%] Built target ament_cmake_python_copy_ros2_fundamentals_examples
+running egg_info
+writing ros2_fundamentals_examples.egg-info/PKG-INFO
+writing dependency_links to ros2_fundamentals_examples.egg-info/dependency_links.txt
+writing top-level names to ros2_fundamentals_examples.egg-info/top_level.txt
+reading manifest file 'ros2_fundamentals_examples.egg-info/SOURCES.txt'
+writing manifest file 'ros2_fundamentals_examples.egg-info/SOURCES.txt'
+[ 50%] Built target ament_cmake_python_build_ros2_fundamentals_examples_egg
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:19[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:25[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/anurag-iyer16/ros2_ws/src/ros2_fundamentals_examples/src/cpp_minimal_publisher.cpp:1[m[K:
+/usr/include/c++/13/functional: In instantiation of ‘[01m[Kstruct std::_Bind_check_arity<void (Minimal_publisher::*)()>[m[K’:
+[01m[K/usr/include/c++/13/functional:859:12:[m[K   required from ‘[01m[Kstruct std::_Bind_helper<false, void (Minimal_publisher::*)()>[m[K’
+[01m[K/usr/include/c++/13/functional:881:5:[m[K   required by substitution of ‘[01m[Ktemplate<class _Func, class ... _BoundArgs> typename std::_Bind_helper<std::__is_socketlike<_Func>::value, _Func, _BoundArgs ...>::type std::[01;32m[Kbind[m[K(_Func&&, _BoundArgs&& ...) [35m[K[with _Func = void (Minimal_publisher::*)(); _BoundArgs = {}][m[K[m[K’
+[01m[K/home/anurag-iyer16/ros2_ws/src/ros2_fundamentals_examples/src/cpp_minimal_publisher.cpp:11:51:[m[K   required from here
+[01m[K/usr/include/c++/13/functional:847:21:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: Wrong number of arguments for pointer-to-member
+  846 |       static_assert(_Varargs::[01;31m[Kvalue[m[K
+      |                               [01;31m[K~~~~~[m[K
+  847 | [01;31m[K                    ? sizeof...(_BoundArgs) >= _Arity::value + 1[m[K
+      |                     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  848 | [01;31m[K                    : sizeof...(_BoundArgs) == _Arity::value + 1[m[K,
+      |                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/13/functional:847:21:[m[K [01;36m[Knote: [m[K‘[01m[K(false ? (0 >= (((long unsigned int)std::integral_constant<long unsigned int, 0>::value) + 1)) : (0 == (((long unsigned int)std::integral_constant<long unsigned int, 0>::value) + 1)))[m[K’ evaluates to false
+/usr/include/c++/13/functional: In substitution of ‘[01m[Ktemplate<class _Functor, class ... _Bound_args> template<class _Fn, class _CallArgs, class ... _BArgs> using std::_Bind<_Functor(_Bound_args ...)>::_Res_type_impl = typename std::result_of<_Fn&(decltype (std::_Mu<typename std::remove_cv<_BArgs>::type, std::is_bind_expression<typename std::remove_cv<_BArgs>::type>::value, (std::is_placeholder<typename std::remove_cv<_BArgs>::type>::value > 0)>()(declval<_BArgs&>(), declval<_CallArgs&>()))&& ...)>::type [35m[K[with _Fn = void (Minimal_publisher::*)(); _BArgs = _CallArgs; _Functor = void (Minimal_publisher::*)(); _Bound_args = {}][m[K[m[K’:
+[01m[K/usr/include/c++/13/functional:556:8:[m[K   required from ‘[01m[Kclass std::_Bind<void (Minimal_publisher::*())()>[m[K’
+[01m[K/home/anurag-iyer16/ros2_ws/src/ros2_fundamentals_examples/src/cpp_minimal_publisher.cpp:11:51:[m[K   required from here
+[01m[K/usr/include/c++/13/functional:552:15:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::result_of<void (Minimal_publisher::*&())()>[m[K’
+  552 |         using [01;31m[K_Res_type_impl[m[K
+      |               [01;31m[K^~~~~~~~~~~~~~[m[K
+/usr/include/c++/13/functional: In substitution of ‘[01m[Ktemplate<class _Functor, class ... _Bound_args> template<class _Fn, class _CallArgs, class ... _BArgs> using std::_Bind<_Functor(_Bound_args ...)>::_Res_type_impl = typename std::result_of<_Fn&(decltype (std::_Mu<typename std::remove_cv<_BArgs>::type, std::is_bind_expression<typename std::remove_cv<_BArgs>::type>::value, (std::is_placeholder<typename std::remove_cv<_BArgs>::type>::value > 0)>()(declval<_BArgs&>(), declval<_CallArgs&>()))&& ...)>::type [35m[K[with _Fn = void (Minimal_publisher::*)(); _CallArgs = std::tuple<_UTypes ...>; _BArgs = {}; _Functor = void (Minimal_publisher::*)(); _Bound_args = {}][m[K[m[K’:
+[01m[K/usr/include/c++/13/functional:556:8:[m[K   required by substitution of ‘[01m[Ktemplate<class _Functor, class ... _Bound_args> template<class _CallArgs> using std::_Bind<_Functor(_Bound_args ...)>::_Res_type = std::_Bind<_Functor(_Bound_args ...)>::_Res_type_impl<_Functor, _CallArgs, _Bound_args ...> [35m[K[with _CallArgs = std::tuple<_UTypes ...>; _Functor = void (Minimal_publisher::*)(); _Bound_args = {}][m[K[m[K’
+[01m[K/usr/include/c++/13/functional:589:2:[m[K   required from ‘[01m[Kclass std::_Bind<void (Minimal_publisher::*())()>[m[K’
+[01m[K/home/anurag-iyer16/ros2_ws/src/ros2_fundamentals_examples/src/cpp_minimal_publisher.cpp:11:51:[m[K   required from here
+[01m[K/usr/include/c++/13/functional:552:15:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::result_of<void (Minimal_publisher::*&())()>[m[K’
+[01m[K/home/anurag-iyer16/ros2_ws/src/ros2_fundamentals_examples/src/cpp_minimal_publisher.cpp:[m[K In constructor ‘[01m[KMinimal_publisher::[01;32m[KMinimal_publisher[m[K()[m[K’:
+[01m[K/home/anurag-iyer16/ros2_ws/src/ros2_fundamentals_examples/src/cpp_minimal_publisher.cpp:11:34:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMinimal_publisher::create_timer(std::chrono::milliseconds, std::_Bind_helper<false, void (Minimal_publisher::*)()>::type, Minimal_publisher*)[m[K’
+   11 |             timer_ = [01;31m[Kcreate_timer(500ms, std::bind(&Minimal_publisher::timerCallback), this)[m[K;
+      |                      [01;31m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K:
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:255:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class DurationRepT, class DurationT, class CallbackT> typename rclcpp::GenericTimer<CallbackT>::SharedPtr rclcpp::Node::[01;32m[Kcreate_timer[m[K(std::chrono::duration<_Rep1, _Period1>, CallbackT, rclcpp::CallbackGroup::SharedPtr)[m[K’
+  255 |   [01;36m[Kcreate_timer[m[K(
+      |   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:255:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/anurag-iyer16/ros2_ws/src/ros2_fundamentals_examples/src/cpp_minimal_publisher.cpp:11:88:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K(Minimal_publisher*)this[m[K’ (type ‘[01m[KMinimal_publisher*[m[K’) to type ‘[01m[Krclcpp::CallbackGroup::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::CallbackGroup>[m[K’}
+   11 |             timer_ = create_timer(500ms, std::bind(&Minimal_publisher::timerCallback), [01;36m[Kthis[m[K);
+      |                                                                                        [01;36m[K^~~~[m[K
+[01m[K/home/anurag-iyer16/ros2_ws/src/ros2_fundamentals_examples/src/cpp_minimal_publisher.cpp:[m[K In member function ‘[01m[Kvoid Minimal_publisher::[01;32m[KtimerCallback[m[K()[m[K’:
+[01m[K/home/anurag-iyer16/ros2_ws/src/ros2_fundamentals_examples/src/cpp_minimal_publisher.cpp:19:25:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kpublic[m[K’
+   19 |             publisher_->[01;31m[Kpublic[m[K(message);
+      |                         [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/minimal_cpp_publisher.dir/build.make:76: CMakeFiles/minimal_cpp_publisher.dir/src/cpp_minimal_publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:140: CMakeFiles/minimal_cpp_publisher.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

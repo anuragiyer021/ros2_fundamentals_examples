@@ -1,0 +1,23 @@
+[0.014s] Invoking command in '/home/anurag-iyer16/ros2_ws/build/ros2_fundamentals_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anurag-iyer16/ros2_ws/install/my_robot_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/anurag-iyer16/ros2_ws/build/ros2_fundamentals_examples -- -j12 -l12
+[0.102s] [ 50%] Built target minimal_cpp_publisher
+[0.109s] [ 50%] Built target ament_cmake_python_copy_ros2_fundamentals_examples
+[0.112s] [ 75%] [32mBuilding CXX object CMakeFiles/minimal_cpp_subscriber.dir/src/cpp_minimal_subscriber.cpp.o[0m
+[0.379s] running egg_info
+[0.402s] writing ros2_fundamentals_examples.egg-info/PKG-INFO
+[0.402s] writing dependency_links to ros2_fundamentals_examples.egg-info/dependency_links.txt
+[0.402s] writing top-level names to ros2_fundamentals_examples.egg-info/top_level.txt
+[0.468s] reading manifest file 'ros2_fundamentals_examples.egg-info/SOURCES.txt'
+[0.468s] writing manifest file 'ros2_fundamentals_examples.egg-info/SOURCES.txt'
+[0.507s] [ 75%] Built target ament_cmake_python_build_ros2_fundamentals_examples_egg
+[2.471s] [01m[K/home/anurag-iyer16/ros2_ws/src/ros2_fundamentals_examples/src/cpp_minimal_subscriber.cpp:17:17:[m[K [01;31m[Kerror: [m[K‘[01m[KSubscritpion[m[K’ in namespace ‘[01m[Krclcpp[m[K’ does not name a template type; did you mean ‘[01m[KSubscription[m[K’?
+[2.471s]    17 |         rclcpp::[01;31m[KSubscritpion[m[K<std_msgs::msg::String>::SharedPtr subscriber_;
+[2.471s]       |                 [01;31m[K^~~~~~~~~~~~[m[K
+[2.471s]       |                 [32m[KSubscription[m[K
+[2.482s] [01m[K/home/anurag-iyer16/ros2_ws/src/ros2_fundamentals_examples/src/cpp_minimal_subscriber.cpp:[m[K In constructor ‘[01m[KMinimal_subscriber::[01;32m[KMinimal_subscriber[m[K()[m[K’:
+[2.482s] [01m[K/home/anurag-iyer16/ros2_ws/src/ros2_fundamentals_examples/src/cpp_minimal_subscriber.cpp:9:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscriber_[m[K’ was not declared in this scope
+[2.482s]     9 |             [01;31m[Ksubscriber_[m[K=create_subscription<std_msgs::msg::String>("/cpp_example_topic", 10, std::bind(&Minimal_subscriber::topicCallback, this, _1));
+[2.482s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[4.526s] gmake[2]: *** [CMakeFiles/minimal_cpp_subscriber.dir/build.make:76: CMakeFiles/minimal_cpp_subscriber.dir/src/cpp_minimal_subscriber.cpp.o] Error 1
+[4.526s] gmake[1]: *** [CMakeFiles/Makefile2:168: CMakeFiles/minimal_cpp_subscriber.dir/all] Error 2
+[4.526s] gmake: *** [Makefile:146: all] Error 2
+[4.529s] Invoked command in '/home/anurag-iyer16/ros2_ws/build/ros2_fundamentals_examples' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anurag-iyer16/ros2_ws/install/my_robot_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/anurag-iyer16/ros2_ws/build/ros2_fundamentals_examples -- -j12 -l12

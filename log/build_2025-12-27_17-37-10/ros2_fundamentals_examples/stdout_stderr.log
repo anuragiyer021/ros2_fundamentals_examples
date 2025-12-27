@@ -1,0 +1,104 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclpy: 7.1.6 (/opt/ros/jazzy/share/rclpy/cmake)
+-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/anurag-iyer16/ros2_ws/src/ros2_fundamentals_examples/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (1.3s)
+[33mCMake Warning (dev) at CMakeLists.txt:24 (add_executable):
+  Policy CMP0115 is not set: Source file extensions must be explicit.  Run
+  "cmake --help-policy CMP0115" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  File:
+
+    /home/anurag-iyer16/ros2_ws/src/ros2_fundamentals_examples/src/cpp_minimal_publisher.cpp
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at CMakeLists.txt:27 (add_executable):
+  Policy CMP0115 is not set: Source file extensions must be explicit.  Run
+  "cmake --help-policy CMP0115" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  File:
+
+    /home/anurag-iyer16/ros2_ws/src/ros2_fundamentals_examples/src/cpp_minimal_subscriber.cpp
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+-- Generating done (0.0s)
+-- Build files have been written to: /home/anurag-iyer16/ros2_ws/build/ros2_fundamentals_examples
+[ 25%] [32mBuilding CXX object CMakeFiles/minimal_cpp_subscriber.dir/src/cpp_minimal_subscriber.cpp.o[0m
+[ 25%] Built target ament_cmake_python_copy_ros2_fundamentals_examples
+[ 50%] [32mBuilding CXX object CMakeFiles/minimal_cpp_publisher.dir/src/cpp_minimal_publisher.cpp.o[0m
+running egg_info
+writing ros2_fundamentals_examples.egg-info/PKG-INFO
+writing dependency_links to ros2_fundamentals_examples.egg-info/dependency_links.txt
+writing top-level names to ros2_fundamentals_examples.egg-info/top_level.txt
+reading manifest file 'ros2_fundamentals_examples.egg-info/SOURCES.txt'
+writing manifest file 'ros2_fundamentals_examples.egg-info/SOURCES.txt'
+[ 50%] Built target ament_cmake_python_build_ros2_fundamentals_examples_egg
+[01m[K/home/anurag-iyer16/ros2_ws/src/ros2_fundamentals_examples/src/cpp_minimal_subscriber.cpp:9:68:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+    9 |             subscriber_=create_subscription<std_msgs::msg::String>([01;35m[K'/cpp_example_topic'[m[K,10,std::bind(&Minimal_subscriber::topicCallback,this,_1));
+      |                                                                    [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/anurag-iyer16/ros2_ws/src/ros2_fundamentals_examples/src/cpp_minimal_subscriber.cpp:17:50:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   17 |         rclcpp::Subscription<std_msgs:msg::String[01;31m[K>[m[K::SharedPtr subscriber_;
+      |                                                  [01;31m[K^[m[K
+[01m[K/home/anurag-iyer16/ros2_ws/src/ros2_fundamentals_examples/src/cpp_minimal_subscriber.cpp:17:50:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/anurag-iyer16/ros2_ws/src/ros2_fundamentals_examples/src/cpp_minimal_subscriber.cpp:17:50:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/anurag-iyer16/ros2_ws/src/ros2_fundamentals_examples/src/cpp_minimal_subscriber.cpp:17:50:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[01m[K/home/anurag-iyer16/ros2_ws/src/ros2_fundamentals_examples/src/cpp_minimal_subscriber.cpp:17:53:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   17 |         rclcpp::Subscription<std_msgs:msg::String>::[01;31m[KSharedPtr[m[K subscriber_;
+      |                                                     [01;31m[K^~~~~~~~~[m[K
+      |                                                              [32m[K;[m[K
+[01m[K/home/anurag-iyer16/ros2_ws/src/ros2_fundamentals_examples/src/cpp_minimal_subscriber.cpp:17:63:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscriber_[m[K’ does not name a type
+   17 |         rclcpp::Subscription<std_msgs:msg::String>::SharedPtr [01;31m[Ksubscriber_[m[K;
+      |                                                               [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/anurag-iyer16/ros2_ws/src/ros2_fundamentals_examples/src/cpp_minimal_subscriber.cpp:[m[K In constructor ‘[01m[KMinimal_subscriber::[01;32m[KMinimal_subscriber[m[K()[m[K’:
+[01m[K/home/anurag-iyer16/ros2_ws/src/ros2_fundamentals_examples/src/cpp_minimal_subscriber.cpp:9:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscriber_[m[K’ was not declared in this scope
+    9 |             [01;31m[Ksubscriber_[m[K=create_subscription<std_msgs::msg::String>('/cpp_example_topic',10,std::bind(&Minimal_subscriber::topicCallback,this,_1));
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/anurag-iyer16/ros2_ws/src/ros2_fundamentals_examples/src/cpp_minimal_subscriber.cpp:9:67:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMinimal_subscriber::create_subscription<std_msgs::msg::String>(int, int, std::_Bind_helper<false, void (Minimal_subscriber::*)(const std_msgs::msg::String_<std::allocator<void> >&) const, Minimal_subscriber*, const std::_Placeholder<1>&>::type)[m[K’
+    9 |             subscriber_=[01;31m[Kcreate_subscription<std_msgs::msg::String>('/cpp_example_topic',10,std::bind(&Minimal_subscriber::topicCallback,this,_1))[m[K;
+      |                         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K,
+                 from [01m[K/home/anurag-iyer16/ros2_ws/src/ros2_fundamentals_examples/src/cpp_minimal_subscriber.cpp:1[m[K:
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:221:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::[01;32m[Kcreate_subscription[m[K(const std::string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+  221 |   [01;36m[Kcreate_subscription[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:221:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/anurag-iyer16/ros2_ws/src/ros2_fundamentals_examples/src/cpp_minimal_subscriber.cpp:9:68:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K1869637987[m[K’ (type ‘[01m[Kint[m[K’) to type ‘[01m[Kconst std::string&[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>&[m[K’}
+    9 |             subscriber_=create_subscription<std_msgs::msg::String>([01;36m[K'/cpp_example_topic'[m[K,10,std::bind(&Minimal_subscriber::topicCallback,this,_1));
+      |                                                                    [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K:
+[01m[K/home/anurag-iyer16/ros2_ws/src/ros2_fundamentals_examples/src/cpp_minimal_subscriber.cpp:[m[K In member function ‘[01m[Kvoid Minimal_subscriber::[01;32m[KtopicCallback[m[K(const std_msgs::msg::String&) const[m[K’:
+[01m[K/home/anurag-iyer16/ros2_ws/src/ros2_fundamentals_examples/src/cpp_minimal_subscriber.cpp:13:61:[m[K [01;31m[Kerror: [m[K‘[01m[Kmag[m[K’ was not declared in this scope; did you mean ‘[01m[Kmsg[m[K’?
+   13 |             RCLCPP_INFO_STREAM(get_logger(), "I Heard: " << [01;31m[Kmag[m[K.data.c_str());
+      |                                                             [01;31m[K^~~[m[K
+[01m[K/home/anurag-iyer16/ros2_ws/src/ros2_fundamentals_examples/src/cpp_minimal_subscriber.cpp:12:58:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   12 |         void topicCallback([01;35m[Kconst std_msgs::msg::String & msg[m[K) const {
+      |                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+gmake[2]: *** [CMakeFiles/minimal_cpp_subscriber.dir/build.make:76: CMakeFiles/minimal_cpp_subscriber.dir/src/cpp_minimal_subscriber.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:168: CMakeFiles/minimal_cpp_subscriber.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 75%] [32m[1mLinking CXX executable minimal_cpp_publisher[0m
+[ 75%] Built target minimal_cpp_publisher
+gmake: *** [Makefile:146: all] Error 2

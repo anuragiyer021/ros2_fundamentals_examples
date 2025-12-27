@@ -1,0 +1,18 @@
+[0.008s] Invoking command in '/home/anurag-iyer16/ros2_ws/build/ros2_fundamentals_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anurag-iyer16/ros2_ws/install/my_robot_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/anurag-iyer16/ros2_ws/build/ros2_fundamentals_examples -- -j12 -l12
+[0.077s] [  0%] Built target ament_cmake_python_copy_ros2_fundamentals_examples
+[0.077s] [ 50%] [32mBuilding CXX object CMakeFiles/minimal_cpp_publisher.dir/src/cpp_minimal_publisher.cpp.o[0m
+[0.229s] running egg_info
+[0.243s] writing ros2_fundamentals_examples.egg-info/PKG-INFO
+[0.243s] writing dependency_links to ros2_fundamentals_examples.egg-info/dependency_links.txt
+[0.243s] writing top-level names to ros2_fundamentals_examples.egg-info/top_level.txt
+[0.281s] reading manifest file 'ros2_fundamentals_examples.egg-info/SOURCES.txt'
+[0.281s] writing manifest file 'ros2_fundamentals_examples.egg-info/SOURCES.txt'
+[0.305s] [ 50%] Built target ament_cmake_python_build_ros2_fundamentals_examples_egg
+[1.418s] [01m[K/home/anurag-iyer16/ros2_ws/src/ros2_fundamentals_examples/src/cpp_minimal_publisher.cpp:24:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+[1.418s]    24 | }
+[1.418s]       |  [01;31m[K^[m[K
+[1.418s]       |  [32m[K;[m[K
+[2.070s] gmake[2]: *** [CMakeFiles/minimal_cpp_publisher.dir/build.make:76: CMakeFiles/minimal_cpp_publisher.dir/src/cpp_minimal_publisher.cpp.o] Error 1
+[2.070s] gmake[1]: *** [CMakeFiles/Makefile2:140: CMakeFiles/minimal_cpp_publisher.dir/all] Error 2
+[2.070s] gmake: *** [Makefile:146: all] Error 2
+[2.072s] Invoked command in '/home/anurag-iyer16/ros2_ws/build/ros2_fundamentals_examples' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/anurag-iyer16/ros2_ws/install/my_robot_controller:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/anurag-iyer16/ros2_ws/build/ros2_fundamentals_examples -- -j12 -l12

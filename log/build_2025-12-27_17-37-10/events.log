@@ -1,0 +1,182 @@
+[0.000000] (-) TimerEvent: {}
+[0.000544] (ros2_fundamentals_examples) JobQueued: {'identifier': 'ros2_fundamentals_examples', 'dependencies': OrderedDict()}
+[0.001187] (ros2_fundamentals_examples) JobStarted: {'identifier': 'ros2_fundamentals_examples'}
+[0.014561] (ros2_fundamentals_examples) JobProgress: {'identifier': 'ros2_fundamentals_examples', 'progress': 'cmake'}
+[0.016206] (ros2_fundamentals_examples) JobProgress: {'identifier': 'ros2_fundamentals_examples', 'progress': 'build'}
+[0.017279] (ros2_fundamentals_examples) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/anurag-iyer16/ros2_ws/build/ros2_fundamentals_examples', '--', '-j12', '-l12'], 'cwd': '/home/anurag-iyer16/ros2_ws/build/ros2_fundamentals_examples', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'anurag-iyer16', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/anurag-iyer16', 'OLDPWD': '/home/anurag-iyer16/ros2_ws/src/ros2_fundamentals_examples', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2425', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/anurag-iyer16/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'anurag-iyer16', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'anurag-iyer16', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/anurag-iyer16-LOQ-15IAX9:@/tmp/.ICE-unix/2382,unix/anurag-iyer16-LOQ-15IAX9:/tmp/.ICE-unix/2382', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/46fd9c59_1e90_4f9e_89b1_6e59fdc6a212', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.100', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/anurag-iyer16/ros2_ws/install/ros2_fundamentals_examples:/home/anurag-iyer16/ros2_ws/install/my_robot_controller:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/anurag-iyer16/ros2_ws/build/ros2_fundamentals_examples', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/anurag-iyer16/ros2_ws/install/ros2_fundamentals_examples/lib/python3.12/site-packages:/home/anurag-iyer16/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/anurag-iyer16/ros2_ws/install/ros2_fundamentals_examples:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/anurag-iyer16/ros2_ws/install/my_robot_controller:/opt/ros/jazzy'}), 'shell': False}
+[0.099970] (-) TimerEvent: {}
+[0.101890] (ros2_fundamentals_examples) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.200080] (-) TimerEvent: {}
+[0.300501] (-) TimerEvent: {}
+[0.400857] (-) TimerEvent: {}
+[0.490110] (ros2_fundamentals_examples) StdoutLine: {'line': b'-- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.501044] (-) TimerEvent: {}
+[0.552170] (ros2_fundamentals_examples) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.568709] (ros2_fundamentals_examples) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.592431] (ros2_fundamentals_examples) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.601311] (-) TimerEvent: {}
+[0.619325] (ros2_fundamentals_examples) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.701540] (-) TimerEvent: {}
+[0.789628] (ros2_fundamentals_examples) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.793254] (ros2_fundamentals_examples) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.801811] (-) TimerEvent: {}
+[0.902305] (-) TimerEvent: {}
+[0.924114] (ros2_fundamentals_examples) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.002554] (-) TimerEvent: {}
+[1.040626] (ros2_fundamentals_examples) StdoutLine: {'line': b'-- Found rclpy: 7.1.6 (/opt/ros/jazzy/share/rclpy/cmake)\n'}
+[1.041261] (ros2_fundamentals_examples) StdoutLine: {'line': b'-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[1.102726] (-) TimerEvent: {}
+[1.188413] (ros2_fundamentals_examples) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[1.202928] (-) TimerEvent: {}
+[1.303342] (-) TimerEvent: {}
+[1.372172] (ros2_fundamentals_examples) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.372752] (ros2_fundamentals_examples) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/anurag-iyer16/ros2_ws/src/ros2_fundamentals_examples/include\n'}
+[1.373034] (ros2_fundamentals_examples) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.373795] (ros2_fundamentals_examples) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.374053] (ros2_fundamentals_examples) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[1.374794] (ros2_fundamentals_examples) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.375521] (ros2_fundamentals_examples) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.376870] (ros2_fundamentals_examples) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.377063] (ros2_fundamentals_examples) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.377634] (ros2_fundamentals_examples) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.380523] (ros2_fundamentals_examples) StdoutLine: {'line': b'-- Configuring done (1.3s)\n'}
+[1.386569] (ros2_fundamentals_examples) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at CMakeLists.txt:24 (add_executable):\n'}
+[1.386869] (ros2_fundamentals_examples) StderrLine: {'line': b'  Policy CMP0115 is not set: Source file extensions must be explicit.  Run\n'}
+[1.387006] (ros2_fundamentals_examples) StderrLine: {'line': b'  "cmake --help-policy CMP0115" for policy details.  Use the cmake_policy\n'}
+[1.387118] (ros2_fundamentals_examples) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[1.387238] (ros2_fundamentals_examples) StderrLine: {'line': b'\n'}
+[1.387345] (ros2_fundamentals_examples) StderrLine: {'line': b'  File:\n'}
+[1.387453] (ros2_fundamentals_examples) StderrLine: {'line': b'\n'}
+[1.387557] (ros2_fundamentals_examples) StderrLine: {'line': b'    /home/anurag-iyer16/ros2_ws/src/ros2_fundamentals_examples/src/cpp_minimal_publisher.cpp\n'}
+[1.387656] (ros2_fundamentals_examples) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.387746] (ros2_fundamentals_examples) StderrLine: {'line': b'\x1b[0m\n'}
+[1.389945] (ros2_fundamentals_examples) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at CMakeLists.txt:27 (add_executable):\n'}
+[1.390190] (ros2_fundamentals_examples) StderrLine: {'line': b'  Policy CMP0115 is not set: Source file extensions must be explicit.  Run\n'}
+[1.390298] (ros2_fundamentals_examples) StderrLine: {'line': b'  "cmake --help-policy CMP0115" for policy details.  Use the cmake_policy\n'}
+[1.390400] (ros2_fundamentals_examples) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[1.390498] (ros2_fundamentals_examples) StderrLine: {'line': b'\n'}
+[1.390600] (ros2_fundamentals_examples) StderrLine: {'line': b'  File:\n'}
+[1.390700] (ros2_fundamentals_examples) StderrLine: {'line': b'\n'}
+[1.390795] (ros2_fundamentals_examples) StderrLine: {'line': b'    /home/anurag-iyer16/ros2_ws/src/ros2_fundamentals_examples/src/cpp_minimal_subscriber.cpp\n'}
+[1.390914] (ros2_fundamentals_examples) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.391006] (ros2_fundamentals_examples) StderrLine: {'line': b'\x1b[0m\n'}
+[1.403472] (-) TimerEvent: {}
+[1.416820] (ros2_fundamentals_examples) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.425733] (ros2_fundamentals_examples) StdoutLine: {'line': b'-- Build files have been written to: /home/anurag-iyer16/ros2_ws/build/ros2_fundamentals_examples\n'}
+[1.487125] (ros2_fundamentals_examples) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/minimal_cpp_subscriber.dir/src/cpp_minimal_subscriber.cpp.o\x1b[0m\n'}
+[1.499476] (ros2_fundamentals_examples) StdoutLine: {'line': b'[ 25%] Built target ament_cmake_python_copy_ros2_fundamentals_examples\n'}
+[1.503585] (-) TimerEvent: {}
+[1.526144] (ros2_fundamentals_examples) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/minimal_cpp_publisher.dir/src/cpp_minimal_publisher.cpp.o\x1b[0m\n'}
+[1.603701] (-) TimerEvent: {}
+[1.704003] (-) TimerEvent: {}
+[1.781008] (ros2_fundamentals_examples) StdoutLine: {'line': b'running egg_info\n'}
+[1.803999] (ros2_fundamentals_examples) StdoutLine: {'line': b'writing ros2_fundamentals_examples.egg-info/PKG-INFO\n'}
+[1.804298] (-) TimerEvent: {}
+[1.804485] (ros2_fundamentals_examples) StdoutLine: {'line': b'writing dependency_links to ros2_fundamentals_examples.egg-info/dependency_links.txt\n'}
+[1.804656] (ros2_fundamentals_examples) StdoutLine: {'line': b'writing top-level names to ros2_fundamentals_examples.egg-info/top_level.txt\n'}
+[1.871171] (ros2_fundamentals_examples) StdoutLine: {'line': b"reading manifest file 'ros2_fundamentals_examples.egg-info/SOURCES.txt'\n"}
+[1.872064] (ros2_fundamentals_examples) StdoutLine: {'line': b"writing manifest file 'ros2_fundamentals_examples.egg-info/SOURCES.txt'\n"}
+[1.904455] (-) TimerEvent: {}
+[1.908559] (ros2_fundamentals_examples) StdoutLine: {'line': b'[ 50%] Built target ament_cmake_python_build_ros2_fundamentals_examples_egg\n'}
+[1.935936] (ros2_fundamentals_examples) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anurag-iyer16/ros2_ws/src/ros2_fundamentals_examples/src/cpp_minimal_subscriber.cpp:9:68:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcharacter constant too long for its type\n'}
+[1.936390] (ros2_fundamentals_examples) StderrLine: {'line': b"    9 |             subscriber_=create_subscription<std_msgs::msg::String>(\x1b[01;35m\x1b[K'/cpp_example_topic'\x1b[m\x1b[K,10,std::bind(&Minimal_subscriber::topicCallback,this,_1));\n"}
+[1.936665] (ros2_fundamentals_examples) StderrLine: {'line': b'      |                                                                    \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.004631] (-) TimerEvent: {}
+[2.105213] (-) TimerEvent: {}
+[2.205567] (-) TimerEvent: {}
+[2.305982] (-) TimerEvent: {}
+[2.406337] (-) TimerEvent: {}
+[2.506686] (-) TimerEvent: {}
+[2.607124] (-) TimerEvent: {}
+[2.707557] (-) TimerEvent: {}
+[2.807973] (-) TimerEvent: {}
+[2.908334] (-) TimerEvent: {}
+[3.008703] (-) TimerEvent: {}
+[3.109140] (-) TimerEvent: {}
+[3.209569] (-) TimerEvent: {}
+[3.309952] (-) TimerEvent: {}
+[3.410343] (-) TimerEvent: {}
+[3.510925] (-) TimerEvent: {}
+[3.611354] (-) TimerEvent: {}
+[3.711807] (-) TimerEvent: {}
+[3.812212] (-) TimerEvent: {}
+[3.912627] (-) TimerEvent: {}
+[4.013005] (-) TimerEvent: {}
+[4.113303] (-) TimerEvent: {}
+[4.213664] (-) TimerEvent: {}
+[4.226216] (ros2_fundamentals_examples) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anurag-iyer16/ros2_ws/src/ros2_fundamentals_examples/src/cpp_minimal_subscriber.cpp:17:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[4.226426] (ros2_fundamentals_examples) StderrLine: {'line': b'   17 |         rclcpp::Subscription<std_msgs:msg::String\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr subscriber_;\n'}
+[4.226513] (ros2_fundamentals_examples) StderrLine: {'line': b'      |                                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.226577] (ros2_fundamentals_examples) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anurag-iyer16/ros2_ws/src/ros2_fundamentals_examples/src/cpp_minimal_subscriber.cpp:17:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 3 is invalid\n'}
+[4.226643] (ros2_fundamentals_examples) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anurag-iyer16/ros2_ws/src/ros2_fundamentals_examples/src/cpp_minimal_subscriber.cpp:17:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 4 is invalid\n'}
+[4.226706] (ros2_fundamentals_examples) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anurag-iyer16/ros2_ws/src/ros2_fundamentals_examples/src/cpp_minimal_subscriber.cpp:17:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 5 is invalid\n'}
+[4.226978] (ros2_fundamentals_examples) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anurag-iyer16/ros2_ws/src/ros2_fundamentals_examples/src/cpp_minimal_subscriber.cpp:17:53:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[4.227133] (ros2_fundamentals_examples) StderrLine: {'line': b'   17 |         rclcpp::Subscription<std_msgs:msg::String>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K subscriber_;\n'}
+[4.227204] (ros2_fundamentals_examples) StderrLine: {'line': b'      |                                                     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.227269] (ros2_fundamentals_examples) StderrLine: {'line': b'      |                                                              \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[4.230599] (ros2_fundamentals_examples) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anurag-iyer16/ros2_ws/src/ros2_fundamentals_examples/src/cpp_minimal_subscriber.cpp:17:63:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksubscriber_\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[4.230761] (ros2_fundamentals_examples) StderrLine: {'line': b'   17 |         rclcpp::Subscription<std_msgs:msg::String>::SharedPtr \x1b[01;31m\x1b[Ksubscriber_\x1b[m\x1b[K;\n'}
+[4.230832] (ros2_fundamentals_examples) StderrLine: {'line': b'      |                                                               \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.240939] (ros2_fundamentals_examples) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anurag-iyer16/ros2_ws/src/ros2_fundamentals_examples/src/cpp_minimal_subscriber.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KMinimal_subscriber::\x1b[01;32m\x1b[KMinimal_subscriber\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.241145] (ros2_fundamentals_examples) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anurag-iyer16/ros2_ws/src/ros2_fundamentals_examples/src/cpp_minimal_subscriber.cpp:9:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksubscriber_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.241223] (ros2_fundamentals_examples) StderrLine: {'line': b"    9 |             \x1b[01;31m\x1b[Ksubscriber_\x1b[m\x1b[K=create_subscription<std_msgs::msg::String>('/cpp_example_topic',10,std::bind(&Minimal_subscriber::topicCallback,this,_1));\n"}
+[4.241296] (ros2_fundamentals_examples) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.271141] (ros2_fundamentals_examples) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anurag-iyer16/ros2_ws/src/ros2_fundamentals_examples/src/cpp_minimal_subscriber.cpp:9:67:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KMinimal_subscriber::create_subscription<std_msgs::msg::String>(int, int, std::_Bind_helper<false, void (Minimal_subscriber::*)(const std_msgs::msg::String_<std::allocator<void> >&) const, Minimal_subscriber*, const std::_Placeholder<1>&>::type)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.271379] (ros2_fundamentals_examples) StderrLine: {'line': b"    9 |             subscriber_=\x1b[01;31m\x1b[Kcreate_subscription<std_msgs::msg::String>('/cpp_example_topic',10,std::bind(&Minimal_subscriber::topicCallback,this,_1))\x1b[m\x1b[K;\n"}
+[4.271452] (ros2_fundamentals_examples) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.271876] (ros2_fundamentals_examples) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[4.272028] (ros2_fundamentals_examples) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[4.272106] (ros2_fundamentals_examples) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172\x1b[m\x1b[K,\n'}
+[4.272172] (ros2_fundamentals_examples) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/anurag-iyer16/ros2_ws/src/ros2_fundamentals_examples/src/cpp_minimal_subscriber.cpp:1\x1b[m\x1b[K:\n'}
+[4.272236] (ros2_fundamentals_examples) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:221:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::\x1b[01;32m\x1b[Kcreate_subscription\x1b[m\x1b[K(const std::string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.272303] (ros2_fundamentals_examples) StderrLine: {'line': b'  221 |   \x1b[01;36m\x1b[Kcreate_subscription\x1b[m\x1b[K(\n'}
+[4.272364] (ros2_fundamentals_examples) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.272552] (ros2_fundamentals_examples) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:221:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.273040] (ros2_fundamentals_examples) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anurag-iyer16/ros2_ws/src/ros2_fundamentals_examples/src/cpp_minimal_subscriber.cpp:9:68:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[K1869637987\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Kconst std::string&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<char>&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[4.273206] (ros2_fundamentals_examples) StderrLine: {'line': b"    9 |             subscriber_=create_subscription<std_msgs::msg::String>(\x1b[01;36m\x1b[K'/cpp_example_topic'\x1b[m\x1b[K,10,std::bind(&Minimal_subscriber::topicCallback,this,_1));\n"}
+[4.273281] (ros2_fundamentals_examples) StderrLine: {'line': b'      |                                                                    \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.280826] (ros2_fundamentals_examples) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27\x1b[m\x1b[K,\n'}
+[4.281016] (ros2_fundamentals_examples) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171\x1b[m\x1b[K:\n'}
+[4.281098] (ros2_fundamentals_examples) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anurag-iyer16/ros2_ws/src/ros2_fundamentals_examples/src/cpp_minimal_subscriber.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Minimal_subscriber::\x1b[01;32m\x1b[KtopicCallback\x1b[m\x1b[K(const std_msgs::msg::String&) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.281171] (ros2_fundamentals_examples) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anurag-iyer16/ros2_ws/src/ros2_fundamentals_examples/src/cpp_minimal_subscriber.cpp:13:61:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmag\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.281240] (ros2_fundamentals_examples) StderrLine: {'line': b'   13 |             RCLCPP_INFO_STREAM(get_logger(), "I Heard: " << \x1b[01;31m\x1b[Kmag\x1b[m\x1b[K.data.c_str());\n'}
+[4.281305] (ros2_fundamentals_examples) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[4.281461] (ros2_fundamentals_examples) StderrLine: {'line': b'\x1b[01m\x1b[K/home/anurag-iyer16/ros2_ws/src/ros2_fundamentals_examples/src/cpp_minimal_subscriber.cpp:12:58:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.281529] (ros2_fundamentals_examples) StderrLine: {'line': b'   12 |         void topicCallback(\x1b[01;35m\x1b[Kconst std_msgs::msg::String & msg\x1b[m\x1b[K) const {\n'}
+[4.281605] (ros2_fundamentals_examples) StderrLine: {'line': b'      |                            \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[4.313864] (-) TimerEvent: {}
+[4.414238] (-) TimerEvent: {}
+[4.514617] (-) TimerEvent: {}
+[4.614988] (-) TimerEvent: {}
+[4.715365] (-) TimerEvent: {}
+[4.815716] (-) TimerEvent: {}
+[4.916293] (-) TimerEvent: {}
+[4.973093] (ros2_fundamentals_examples) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/minimal_cpp_subscriber.dir/build.make:76: CMakeFiles/minimal_cpp_subscriber.dir/src/cpp_minimal_subscriber.cpp.o] Error 1\n'}
+[4.973403] (ros2_fundamentals_examples) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:168: CMakeFiles/minimal_cpp_subscriber.dir/all] Error 2\n'}
+[4.973488] (ros2_fundamentals_examples) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[5.016473] (-) TimerEvent: {}
+[5.116772] (-) TimerEvent: {}
+[5.217144] (-) TimerEvent: {}
+[5.317553] (-) TimerEvent: {}
+[5.417913] (-) TimerEvent: {}
+[5.518304] (-) TimerEvent: {}
+[5.618688] (-) TimerEvent: {}
+[5.719059] (-) TimerEvent: {}
+[5.819415] (-) TimerEvent: {}
+[5.919690] (-) TimerEvent: {}
+[6.019934] (-) TimerEvent: {}
+[6.120226] (-) TimerEvent: {}
+[6.220547] (-) TimerEvent: {}
+[6.320916] (-) TimerEvent: {}
+[6.421197] (-) TimerEvent: {}
+[6.522925] (-) TimerEvent: {}
+[6.623208] (-) TimerEvent: {}
+[6.656883] (ros2_fundamentals_examples) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable minimal_cpp_publisher\x1b[0m\n'}
+[6.723361] (-) TimerEvent: {}
+[6.823814] (-) TimerEvent: {}
+[6.924275] (-) TimerEvent: {}
+[6.980098] (ros2_fundamentals_examples) StdoutLine: {'line': b'[ 75%] Built target minimal_cpp_publisher\n'}
+[6.981603] (ros2_fundamentals_examples) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[6.985426] (ros2_fundamentals_examples) CommandEnded: {'returncode': 2}
+[7.011157] (ros2_fundamentals_examples) JobEnded: {'identifier': 'ros2_fundamentals_examples', 'rc': 2}
+[7.021612] (-) EventReactorShutdown: {}

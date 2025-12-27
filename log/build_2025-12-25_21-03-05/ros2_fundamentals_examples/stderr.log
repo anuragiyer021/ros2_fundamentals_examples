@@ -1,0 +1,5 @@
+[31mCMake Error at CMakeLists.txt:45 (incluce):
+  Unknown CMake command "incluce".
+
+[0m
+gmake: *** [Makefile:254: cmake_check_build_system] Error 1

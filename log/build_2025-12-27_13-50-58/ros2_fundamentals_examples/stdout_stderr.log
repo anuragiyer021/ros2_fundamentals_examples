@@ -1,0 +1,16 @@
+[  0%] Built target ament_cmake_python_copy_ros2_fundamentals_examples
+[ 50%] [32mBuilding CXX object CMakeFiles/minimal_cpp_publisher.dir/src/cpp_minimal_publisher.cpp.o[0m
+running egg_info
+writing ros2_fundamentals_examples.egg-info/PKG-INFO
+writing dependency_links to ros2_fundamentals_examples.egg-info/dependency_links.txt
+writing top-level names to ros2_fundamentals_examples.egg-info/top_level.txt
+reading manifest file 'ros2_fundamentals_examples.egg-info/SOURCES.txt'
+writing manifest file 'ros2_fundamentals_examples.egg-info/SOURCES.txt'
+[ 50%] Built target ament_cmake_python_build_ros2_fundamentals_examples_egg
+[01m[K/home/anurag-iyer16/ros2_ws/src/ros2_fundamentals_examples/src/cpp_minimal_publisher.cpp:24:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+   24 | }
+      |  [01;31m[K^[m[K
+      |  [32m[K;[m[K
+gmake[2]: *** [CMakeFiles/minimal_cpp_publisher.dir/build.make:76: CMakeFiles/minimal_cpp_publisher.dir/src/cpp_minimal_publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:140: CMakeFiles/minimal_cpp_publisher.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

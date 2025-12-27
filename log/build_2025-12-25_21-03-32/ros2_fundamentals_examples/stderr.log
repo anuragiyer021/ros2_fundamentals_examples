@@ -1,0 +1,6 @@
+[31mCMake Error at CMakeLists.txt:45 (include):
+  include called with wrong number of arguments.  include() only takes one
+  file.
+
+[0m
+gmake: *** [Makefile:254: cmake_check_build_system] Error 1
